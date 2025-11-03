@@ -59,6 +59,7 @@ export function Portfolio() {
       image: "/engine-cover-red.jpg",
       category: "Automotive",
       year: "2025",
+      videoUrl: "/engine-cover-video.mp4", // Added video URL for Engine Cover project
       githubUrl: "https://github.com/crisandres5/Engine-Cover.git",
     },
     {
@@ -117,12 +118,12 @@ export function Portfolio() {
                   variant="outline"
                   className="flex-1 bg-transparent"
                   onClick={() => {
-                    if ("githubUrl" in project && project.githubUrl) {
+                    if ("videoUrl" in project && project.videoUrl) {
+                      window.open(project.videoUrl, "_blank")
+                    } else if ("githubUrl" in project && project.githubUrl) {
                       window.open(project.githubUrl, "_blank")
                     } else if ("pdfUrl" in project && project.pdfUrl) {
                       window.open(project.pdfUrl, "_blank")
-                    } else if ("videoUrl" in project && project.videoUrl) {
-                      window.open(project.videoUrl, "_blank")
                     }
                   }}
                 >
