@@ -59,18 +59,18 @@ export function Portfolio() {
       image: "/engine-cover-red.jpg",
       category: "Automotive",
       year: "2025",
-      videoUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ENGINE%20COVER%20PDF%20-j6WionTsj8mE13ulyRXK2zJBlZswjP.mp4", // Added video URL for Engine Cover project
+      videoUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ENGINE%20COVER%20PDF%20-j6WionTsj8mE13ulyRXK2zJBlZswjP.mp4",
       githubUrl: "https://github.com/crisandres5/Engine-Cover.git",
     },
     {
       title: "Rear Wing",
       description:
-        "The goal of this project was to design a rear wing with high performance for a racing car, using optimised aerodynamic profile geometries and functional endplates that improve the flow around the vehicle.",
+        "The goal of this project was to design a rear wing under the 2023 regulations, using optimised aerodynamic profile geometries.",
       technologies: ["CATIA V5", "Surfaces", "CFD"],
-      image: "/rear-wing.png",
+      image: "/rear-wing-iso.jpg",
       category: "Automotive",
       year: "2025",
-      videoUrl: "",
+      videoUrl: "/rear-wing-video.mp4",
     },
   ]
 
