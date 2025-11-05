@@ -67,7 +67,7 @@ export function Portfolio() {
       description:
         "The goal of this project was to design a rear wing under the 2023 regulations, using optimised aerodynamic profile geometries.",
       technologies: ["CATIA V5", "Surfaces", "CFD"],
-      image: "/rear-wing-iso.jpg",
+      image: "/rear-wing.jpg",
       category: "Automotive",
       year: "2025",
       videoUrl: "/rear-wing-video.mp4",
