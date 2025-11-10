@@ -26,7 +26,7 @@ export function Portfolio() {
       category: "Mechanical",
       year: "2018",
       pdfUrl: "/turbocharger.pdf",
-      videoUrl: "/turbocharger-video.mp4", // Updated to use new turbocharger video
+      videoUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/TURBOCHARGER%20PDF-NvEv6W8nYAdiWyVM3q9BVj5mCzwFkG.mp4", // Updated to use new turbocharger video
     },
     {
       title: "Front Wing OBR",
