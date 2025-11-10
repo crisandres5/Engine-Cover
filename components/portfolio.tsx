@@ -70,7 +70,7 @@ export function Portfolio() {
       image: "/rear-wing.jpg",
       category: "Automotive",
       year: "2025",
-      videoUrl: "/rear-wing-video.mp4",
+      videoUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/REAR%20WING%20PDF-zFnwgeJj8XTW04Vr59V1fs4NPRufOb.mp4",
     },
   ]
 
