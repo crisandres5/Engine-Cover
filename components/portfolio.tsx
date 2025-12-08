@@ -72,6 +72,16 @@ export function Portfolio() {
       year: "2025",
       videoUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/REAR%20WING%20PDF-zFnwgeJj8XTW04Vr59V1fs4NPRufOb.mp4",
     },
+    {
+      title: "Front Wing",
+      description:
+        "The goal of this project was to design a high-performance front wing for a racing car, utilising advanced surface techniques in CATIA V5 to optimise aerodynamic efficiency and downforce generation.",
+      technologies: ["CATIA V5", "Surfaces", "CFD"],
+      image: "/front-wing-catia.jpg",
+      category: "Automotive",
+      year: "2025",
+      videoUrl: "/front-wing-catia-video.mp4",
+    },
   ]
 
   const ProjectGrid = ({ projects }: { projects: typeof solidworksProjects | typeof catiaProjects }) => (
