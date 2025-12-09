@@ -46,7 +46,7 @@ export function Portfolio() {
       image: "/hill-climb-car.png",
       category: "Automotive",
       year: "2025",
-      videoUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/HILL%20CLIMB%20FORCE%20TA-7nggqzQLThQu4OhV44BRkaWwDj8fdE.mp4",
+      videoUrl: "/hill-climb-force-ta.mp4",
     },
   ]
 
