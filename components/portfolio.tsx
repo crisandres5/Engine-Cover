@@ -36,7 +36,7 @@ export function Portfolio() {
       image: "/front-wing-obr.png",
       category: "Automotive",
       year: "2024",
-      videoUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/FRONT%20WING%20OBR-26bMk0Nq1aEl0GV2Cc7i01dooZgBlp.mp4",
+      videoUrl: "/front-wing-obr.mp4",
     },
     {
       title: "Hill Climb FORCE TA",
