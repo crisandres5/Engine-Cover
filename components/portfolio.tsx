@@ -15,7 +15,7 @@ export function Portfolio() {
       image: "/four-stroke-engine.png",
       category: "Mechanical",
       year: "2019",
-      videoUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/FOUR%20STROKE%20ENGINE-sdFbCH3ykn32sGhvhcs3a77lOqlMUO.mp4",
+      videoUrl: "/four-stroke-engine.mp4",
     },
     {
       title: "Turbocharger",
