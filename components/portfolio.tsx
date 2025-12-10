@@ -80,7 +80,7 @@ export function Portfolio() {
       image: "/front-wing-catia.jpg",
       category: "Automotive",
       year: "2025",
-      videoUrl: "/front-wing-catia-video.mp4",
+      videoUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/FRONT%20WING%20PDF-Um4mgCPSUqfr96TGcE29pxUFdE13oU.mp4",
     },
   ]
 
