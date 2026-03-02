@@ -156,17 +156,11 @@ export function Portfolio() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Project Portfolio</h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto text-pretty">
-            A showcase of innovative aerodynamic surface engineering projects organized by design software expertise.
-          </p>
         </div>
 
         <div className="mb-16">
           <div className="text-center mb-12">
             <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">CATIA V5 Projects</h3>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Complex aerodynamic surface designs created with CATIA V5 advanced surfacing capabilities.
-            </p>
           </div>
           <ProjectGrid projects={catiaProjects} />
         </div>
@@ -174,9 +168,6 @@ export function Portfolio() {
         <div>
           <div className="text-center mb-12">
             <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">SOLIDWORKS Projects</h3>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Advanced surface engineering projects developed using SOLIDWORKS design and simulation tools.
-            </p>
           </div>
           <ProjectGrid projects={solidworksProjects} />
         </div>
